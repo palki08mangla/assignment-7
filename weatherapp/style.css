@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.image{
+background-image:url("https://source.unsplash.com/random/1600x900?sig=${Math.random()}");
+background-repeat:no-repeat;
+}
+  body{
+    font-family: "Roboto",sans-serif;
+    background: #0a1f44;
+    color:#1e2432;
+    padding:70px;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+     background: none;
+     outline: none;
+  
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #ff1e42;
+    border: none;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+   
+  }
+input[type="submit"]:hover
+{
+background:#c3112d;
+}
+  
+  .input input[type="text"]{
+    width: 300px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #4a636e;
+    border: none;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .card{
+    width: 50%;
+  
+    background: #4a636e;
+    height: 50vh;
+    margin: 50px auto;
+    border-radius: 2px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
